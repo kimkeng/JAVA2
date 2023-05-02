@@ -8,7 +8,8 @@ public class ByteExample {
 		byte var3 = 0;
 		byte var4 = 30;
 		byte var5 = 127;
-		//byte var6 = 128; //컴파일 에러(Type mismatch: cannot covert from int to byte)
+		//byte var6 = 128; //컴파일 에러(type mismatch: cannot covert from int to byte)
+		//byte는 -128~127까지 (정수는 0부터 카운터)
 		
 		System.out.println(var1);
 		System.out.println(var2);

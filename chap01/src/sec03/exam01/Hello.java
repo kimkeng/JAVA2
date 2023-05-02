@@ -4,7 +4,7 @@ public class Hello {
 
 	public static void main(String[] args) {
 		// 콘솔창에 문자 출력
-		System.out.println("Hello, Java");
+		System.out.println();
 	}
 
 }

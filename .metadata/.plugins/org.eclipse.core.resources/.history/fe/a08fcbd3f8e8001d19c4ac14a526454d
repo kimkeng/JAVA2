@@ -1,0 +1,12 @@
+package sec01.exam01;
+
+public class Variabl { 
+			//Variabl은 변수를 뜻한다.
+
+	public static void main(String[] args) {
+		int value = 20;
+		int result = value + 10;
+		System.out.println(result);
+	}
+
+}

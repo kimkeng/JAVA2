@@ -6,6 +6,7 @@ public class ByteOperationExamlpe {
 		byte value1 = 10;
 		int value2 = 100;
 		long value3 = 1000L;
+		//long 을 사용하면 값의 끝에 L을 붙여줘야 사용가능
 		//long result = (long)value1 + (long)value2 + (long)value3; 전체 long으로 전환
 		long result = value1 + value2 + value3;
 		//byte result = value1 + value2 + value3; 값이 127(byte의 최대범위)을 넘어서 에러뜸.

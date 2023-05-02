@@ -6,8 +6,8 @@ public class ByteOperationExamlpe {
 		byte result1 = 10 + 20;
 		System.out.println(result1);
 		
-		//byte result3 = 10;
-		//System.out.println(result3);
+		byte result3 = 10;
+		System.out.println(result3);
 		
 		byte x = 10;
 		byte y = 20;

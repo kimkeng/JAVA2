@@ -1,4 +1,4 @@
-package sce02.exam05;
+package sec02.exam05;
 
 public class CharOperationExample {
 

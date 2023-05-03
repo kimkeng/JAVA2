@@ -1,4 +1,4 @@
-package sce02.exam01;
+package sec02.exam01;
 
 public class SignOperatorfExample2 {
 
@@ -16,4 +16,3 @@ public class SignOperatorfExample2 {
 	}
 
 }
-

@@ -1,4 +1,4 @@
-package sce02.exam04;
+package sec02.exam04;
 
 public class ArithmenticOperatorExample {
 

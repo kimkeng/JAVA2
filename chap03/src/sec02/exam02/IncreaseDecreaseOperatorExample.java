@@ -1,4 +1,4 @@
-package sce02.exam02;
+package sec02.exam02;
 
 public class IncreaseDecreaseOperatorExample {
 

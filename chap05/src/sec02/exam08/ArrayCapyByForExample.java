@@ -10,7 +10,7 @@ public class ArrayCapyByForExample {
 			newIntArray[i] = oldIntArray[i];
 		}
 		for(int i=0; i<newIntArray.length; i++) {
-			System.out.print(newIntArray[i] + ", ");
+			System.out.println(newIntArray[i] + ", ");
 		}
 	}
 

@@ -5,9 +5,9 @@ public class ArrayInArrayExample {
 	public static void main(String[] args) {
         //배열   안의  배열
 		
-		int[][] mathScores = new int [2][3];
+		int[][] mathScores = new int [3][2];
 		for(int i=0;i<mathScores.length;i++) {
-			for(int k=0; k<mathScores.length; k++) {
+			for(int k=0; k<mathScores[i].length; k++) {
 				System.out.println("mathScores["+i+"]["+k+"]=" + mathScores[i][k]);
 			}
 		}
@@ -19,7 +19,7 @@ public class ArrayInArrayExample {
 		englishScores[0] = new int[2]; //1층
 		englishScores[1] = new int[3]; //2층
 		for(int i=0;i<englishScores.length;i++) {
-			for(int k=0; k<englishScores.length; k++) {
+			for(int k=0; k<englishScores[i].length; k++) {
 				System.out.println("mathScores["+i+"]["+k+"]=" + englishScores[i][k]);
 			}
 		}

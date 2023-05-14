@@ -10,6 +10,7 @@ public class EnumWeekExample {
 		Calendar cal = Calendar.getInstance();
 		int week = cal.get(Calendar.DAY_OF_WEEK);
 		//week = week+1; 이건 하루 뒤
+		//DAY-OF-WEEK는 수많은 날짜와 시간 정보를 가지고 있다.
 		switch(week) {
 		case 1:
 			today = Week.SUNDAY; break;

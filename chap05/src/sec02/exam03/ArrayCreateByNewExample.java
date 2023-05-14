@@ -23,6 +23,8 @@ public class ArrayCreateByNewExample {
 		for(int i=0; i<3;i++) {
 			System.out.println("arr2[" + i + "]:" + arr2[i]);
 		}
+		System.out.println("");
+		
 		String [] arr3 = new String[3];
 		for(int i=0;i<3;i++) {		
 			System.out.println("arr3[" + i + "] :" + arr3[i]);

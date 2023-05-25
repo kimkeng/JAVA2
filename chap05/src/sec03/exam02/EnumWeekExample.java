@@ -25,7 +25,8 @@ public class EnumWeekExample {
 		case 6:
 			today = Week.FRIDAY; break;
 		case 7:
-			today = Week.SATURDAY; break;
+			today = Week.SATURDAY; 
+
 		}
 		
 		System.out.println(today);
